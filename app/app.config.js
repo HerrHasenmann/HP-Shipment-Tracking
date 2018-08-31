@@ -47,7 +47,7 @@ app.config(["$routeProvider", "$injector", "RouteServiceProvider", function ($ro
 
     var defaultRoute = RouteService.getDefaultRoute();
     var sidenavRoutes = RouteService.getRoutes().sidenav;
-    var otherRoutes = RouteService.getRoutes().sidenav;
+    var otherRoutes = RouteService.getRoutes().others;
     var redirects = RouteService.getRedirects();
 
     // Set default route
