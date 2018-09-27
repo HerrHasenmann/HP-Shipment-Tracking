@@ -12,29 +12,24 @@ function RouteService($location) {
 
     var routes = {
         "sidenav": {
-            "colorSample": {
-                "id": "colorSample",
-                "name": "Color Sample",
-                "icon": "palette",
-                "template": "<color-sample></color-sample>"
-            },
-            "momentSample": {
-                "id": "momentSample",
-                "name": "Moment Sample",
-                "icon": "calendar-clock",
-                "template": "<moment-sample></moment-sample>"
-            },
+            "delivery": {
+                "id": "delivery",
+                "name": "Delivery",
+                "icon": "package",
+                "template": "<delivery></delivery>"
+            }
+        },
+        "others": {
             "iconSample": {
                 "id": "iconSample",
                 "name": "Icon Sample",
                 "icon": "apps",
                 "template": "<icon-sample></icon-sample>"
             }
-        },
-        "others": {}
+        }
     };
 
-    var defaultRoute = routes.sidenav["colorSample"];
+    var defaultRoute = routes.sidenav["delivery"];
 
     var redirects = [
         // Sample

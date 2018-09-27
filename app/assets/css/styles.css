@@ -9,3 +9,9 @@ md-list-item md-icon {
 md-list-item .md-list-item-inner:before, md-list-item:before {
     min-height: unset;
 }
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
