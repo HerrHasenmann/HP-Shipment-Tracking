@@ -1,2 +1,2 @@
-# HP-Material-Angular-Template
-Core template for applications with AngularJS and Material Angular
+# HP-Shipment-Tracking
+Little fun project to replicate a shipment tracking.
